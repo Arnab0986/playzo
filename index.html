@@ -1,50 +1,132 @@
+
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO -->
     <title>PLAYZO — Free Online Games | Click. Play. Repeat.</title>
-    <meta name="description" content="Discover free online browser games at PLAYZO. Play arcade, puzzle and brain games instantly, with no downloads or registration." />
+    <meta
+      name="description"
+      content="Discover free online browser games at PLAYZO. Play arcade, puzzle and brain games instantly, with no downloads or registration."
+    />
     <meta name="application-name" content="PLAYZO" />
     <meta name="author" content="PLAYZO" />
     <meta name="theme-color" content="#101126" />
     <meta name="color-scheme" content="dark" />
     <meta name="robots" content="index, follow" />
-    <meta name="google-adsense-account" content="ca-pub-1866633787679432" />
 
-    <!-- AdSense account verification / Auto ads loader. Add only once per site. -->
+    <!-- Google AdSense Account -->
+    <meta
+      name="google-adsense-account"
+      content="ca-pub-1866633787679432"
+    />
+
+    <!-- Google AdSense Verification / Auto Ads -->
+    <!-- Keep this script only once on the website. -->
     <script
       async
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1866633787679432"
       crossorigin="anonymous"
     ></script>
 
+    <!-- Google Analytics 4 -->
+    <!-- PLAYZO Measurement ID: G-7ZDSL75Q0Z -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7ZDSL75Q0Z"
+    ></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+
+      gtag('js', new Date());
+
+      gtag('config', 'G-7ZDSL75Q0Z', {
+        send_page_view: true
+      });
+    </script>
+
+    <!-- Favicon and App Icons -->
     <link rel="icon" type="image/svg+xml" href="/playzo-icon.svg" />
     <link rel="shortcut icon" href="/playzo-icon.svg" />
     <link rel="apple-touch-icon" href="/playzo-icon.svg" />
     <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Logo Preload -->
     <link rel="preload" as="image" href="/playzo-logo.svg" />
-    <link rel="canonical" href="https://playzo-eight.vercel.app/" />
 
+    <!-- Canonical URL -->
+    <link
+      rel="canonical"
+      href="https://playzo-eight.vercel.app/"
+    />
+
+    <!-- Font Optimization -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Open Graph / Social Sharing -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="PLAYZO" />
-    <meta property="og:title" content="PLAYZO — Click. Play. Repeat." />
-    <meta property="og:description" content="Your next favourite game starts here. Discover and play free online browser games." />
-    <meta property="og:url" content="https://playzo-eight.vercel.app/" />
-    <meta property="og:image" content="https://playzo-eight.vercel.app/social-preview.svg" />
-    <meta property="og:image:alt" content="PLAYZO — free online games. Click. Play. Repeat." />
+    <meta
+      property="og:title"
+      content="PLAYZO — Click. Play. Repeat."
+    />
+    <meta
+      property="og:description"
+      content="Your next favourite game starts here. Discover and play free online browser games."
+    />
+    <meta
+      property="og:url"
+      content="https://playzo-eight.vercel.app/"
+    />
+    <meta
+      property="og:image"
+      content="https://playzo-eight.vercel.app/social-preview.svg"
+    />
+    <meta
+      property="og:image:alt"
+      content="PLAYZO — free online games. Click. Play. Repeat."
+    />
+
+    <!-- Twitter / X Sharing -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="PLAYZO — Click. Play. Repeat." />
-    <meta name="twitter:description" content="Discover exciting free online games. No downloads. Just play." />
-    <meta name="twitter:image" content="https://playzo-eight.vercel.app/social-preview.svg" />
+    <meta
+      name="twitter:title"
+      content="PLAYZO — Click. Play. Repeat."
+    />
+    <meta
+      name="twitter:description"
+      content="Discover exciting free online games. No downloads. Just play."
+    />
+    <meta
+      name="twitter:image"
+      content="https://playzo-eight.vercel.app/social-preview.svg"
+    />
+
+    <!-- Browser Compatibility -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   </head>
+
   <body>
     <div id="root"></div>
+
+    <!-- React Application -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
