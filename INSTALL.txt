@@ -1,0 +1,1 @@
+Copy index.html to the project root, replacing the existing file. Copy all files from public/ into your project's public/ folder. Then commit and push. Current production URL: https://playzo-eight.vercel.app/

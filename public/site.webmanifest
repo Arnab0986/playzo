@@ -1,0 +1,10 @@
+{
+  "name": "PLAYZO — Free Online Games",
+  "short_name": "PLAYZO",
+  "description": "Free online browser games. Click. Play. Repeat.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101126",
+  "theme_color": "#101126",
+  "icons": [{"src": "/playzo-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]
+}
