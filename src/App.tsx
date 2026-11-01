@@ -1,5 +1,6 @@
 import { Route, Routes, useNavigate } from 'react-router-dom'
 import GamePage from './pages/GameDetails/GamePage'
+import { HomeStructuredData } from './components/seo/StructuredData'
 import {
   AboutPage, CategoriesPage, HooksPage, LibrariesPage, StorePage, StylesPage,
   PrivacyPage, TermsPage, ContactPage,
@@ -162,6 +163,7 @@ function HomePage() {
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#101126] text-white">
+      <HomeStructuredData />
 
       {/* ================= NAVIGATION ================= */}
 

@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, ArrowUpRight, Keyboard, Lightbulb, Sparkles, Target, Trophy, Zap } from 'lucide-react'
 import { motion } from 'framer-motion'
 import GameSuite from '../../games/GameSuite'
+import { GameStructuredData } from '../../components/seo/StructuredData'
 
 type GameInfo = {
   title: string
@@ -199,6 +200,7 @@ export default function GamePage() {
 
   return (
     <main className="relative min-h-screen overflow-hidden bg-[#090b19] text-white selection:bg-violet-500/30">
+      <GameStructuredData slug={slug} name={game.title} description={game.description} genre={game.category} />
       <div className="pointer-events-none fixed inset-0 -z-0 bg-[radial-gradient(ellipse_at_12%_5%,rgba(91,33,182,.2),transparent_35%),radial-gradient(ellipse_at_90%_38%,rgba(8,145,178,.12),transparent_32%)]" />
 
       <header className="sticky top-0 z-40 border-b border-white/[.08] bg-[#0b0d1d]/85 backdrop-blur-2xl">
