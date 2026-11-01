@@ -172,16 +172,14 @@ function HomePage() {
 
           <a
             href="#home"
-            className="flex items-center gap-2.5"
+            className="flex items-center"
             aria-label="PLAYZO homepage"
           >
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-violet-500 to-blue-500 shadow-lg shadow-violet-500/25">
-              <Gamepad2 size={23} strokeWidth={2.5} />
-            </div>
-
-            <span className="text-2xl font-black tracking-tight">
-              PLAY<span className="text-violet-400">ZO</span>
-            </span>
+            <img
+              src="/playzo-logo.svg"
+              alt="PLAYZO - Click. Play. Repeat."
+              className="h-10 w-auto"
+            />
           </a>
 
           {/* DESKTOP NAVIGATION */}
@@ -726,15 +724,17 @@ function HomePage() {
       <footer className="border-t border-white/[0.07] bg-[#0C0D20]">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-5 px-5 py-9 text-center sm:flex-row sm:text-left lg:px-8">
 
-          <div>
-            <div className="text-xl font-black">
-              PLAY<span className="text-violet-400">ZO</span>
-            </div>
-
-            <p className="mt-1 text-xs text-[#777A99]">
-              CLICK. PLAY. REPEAT.
-            </p>
-          </div>
+          <a
+            href="#home"
+            className="flex flex-col items-center sm:items-start"
+            aria-label="PLAYZO homepage"
+          >
+            <img
+              src="/playzo-logo.svg"
+              alt="PLAYZO - Click. Play. Repeat."
+              className="h-9 w-auto"
+            />
+          </a>
 
           <p className="text-xs text-[#777A99]">
             © {new Date().getFullYear()} PLAYZO. All rights reserved.
