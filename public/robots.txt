@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://playzo-eight.vercel.app/sitemap.xml
